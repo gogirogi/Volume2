@@ -9,9 +9,9 @@
     <!--Available values: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
     <MeterOrientation>horizontal</MeterOrientation>
     <MeterMin>0</MeterMin>
-    <MeterMax>53</MeterMax>
+    <MeterMax>164</MeterMax>
     <MeterPosition>
-      <X>53</X>
+      <X>45</X>
       <Y>20</Y>
     </MeterPosition>
     <FadeSteps>43</FadeSteps>
@@ -36,18 +36,18 @@
     <ShowPeakMeter>true</ShowPeakMeter>
     <!--Available values: BitStripBottom, BitStripRight, Horizontal-->
     <MeterOrientation>horizontal</MeterOrientation>
-    <MeterMax>53</MeterMax>
+    <MeterMax>158</MeterMax>
     <MeterStyle>Stereo</MeterStyle>
     <!--Available values: -1 - plNone, 0 - plAfterBack, 1 - plAfterAnimation, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
     <LayerIndex>1</LayerIndex>
     <MeterLeftInvert>false</MeterLeftInvert>
     <MeterRightInvert>false</MeterRightInvert>
     <MeterLeftPosition>
-      <X>53</X>
+      <X>47</X>
       <Y>20</Y>
     </MeterLeftPosition>
     <MeterRightPosition>
-      <X>53</X>
+      <X>47</X>
       <Y>29</Y>
     </MeterRightPosition>
   </PeakMeter>

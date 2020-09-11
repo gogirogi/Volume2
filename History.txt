@@ -1,10 +1,46 @@
-﻿#RU Версия 1.1.6.409 (15.01.2018)
+﻿#RU Версия 1.1.6.426 (02.08.2020)
+*Исправлены ошибки с GitHub #69, #88, #92, #93, #82, #98, #103
+*Исправлена плавная прокрутка (Logitech SetPoint)
++Добавлена возможность запуска приложения без доступных аудио устройств в системе
++Добавлена сортировка в Расписание
++Добавлено события в Планировщике (на болкирование ПК, на разблокирование ПК, после простоя ПК)
+*Исправлен Peak Meter
++Добавлена поддержка нескольких мониторов с разными разрешениями для окна настроек
++Добавлены варианты автозагрузки: как программа или как задача
++Добавлена сортировка устройств
+*Исправлено дублирование в списке устройств
+*Исправлена загрузка имени автора скина в Peak Meter
++Добавлена опция Связать громкость устройств, при изменении основного устройства будет изменена громкость альтернативного и наоборот
++Добавлена опция DetectActiveMonitorMethod для определения активного монитора 0 - по активному окну, 1 - по позиции мыши (доступно в Config.ini)
+*Исправлена проблема с одинаковыми именами устройств, теперь сохраняются ИД
++Добавлена возможность задать позицию и размер Экранного индикатора для каждого экрана
+*Исправлена работа параметров командной строки
+*Изменен веб адрес блога
 *Исправлено управление балансом Windows 10
 *Исправлен сброс баланса в Windows XP
+*Исправлено управление громкостью выбранного приложения
 
-#US Version 1.1.6.409 (15.01.2018)
+#US Version 1.1.6.426 (02.08.2020)
+*Fixed issues from GitHub #69, #88, #92, #93, #82, #98, #103
+*Fixed Smooth scrolling from Logitech SetPoint
++Added possibility to load programm without any audio devices(Windows 7 and higher
++Added ordering to Scheduls
++Added new periods for Scheduler (On Lock PC, On Unlock PC, After Idle Time)
+*Fixed PeakMeter
++Added support multiple monitors with different resolutions for Settings window
++Added Autorun types: As Task or As Program
++Added devices sorting
+*Fixed dublicating devices
+*Fixed loading Author name in Peak Meter
++Added option Lock Devices Volume, when you change volume of main device also will be changed volume of alternative and vice versa
++Added option how to detect active monitor DetectActiveMonitorMethod: 0 - by active window, 1 - by mouse position (available in Config.ini)
+*Fixed problem with the same devices' names, from this version will be stored ID
++Added possibility to set OSD position and size for each monitor
+*Fixed command line parameters
+*Changed blog address
 *Fixed balance control Windows 10
 *Fixed reseting balance on Windows XP
+*Fixed control volume of selected application
 
 #RU Версия 1.1.5.404 (31.12.2017)
 *Исправлена функция установки громкости для устройства с Расписания
